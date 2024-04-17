@@ -354,5 +354,12 @@ body {
     .stock-display__button {
       padding: 8px; /* Reduced padding for small screens */
     }
+
+    .stock-display__table-row div {
+      padding: 10px; /* Adjusted padding for small screens */
+      white-space: nowrap; /* Prevent wrapping of content */
+      overflow: hidden; /* Hide overflowing content */
+      text-overflow: ellipsis; /* Display ellipsis for overflow */
+    }
   }
   
