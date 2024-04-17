@@ -47,7 +47,11 @@ function updateStockPrices() {
     stockData.forEach((stock, index) => {
       const interval = setInterval(() => {
         // Update stock price with a random value
-        stock.price += Math.floor(Math.random() * (10 - (-10) + 1)) + (-10);
+        if (stockprice > 0) {
+          stockprice += Math.floor(Math.random() * (10 - (-10) + 1)) + (-10);
+         } else {
+          stockprice = 0;
+         }
 
 
 
