@@ -1,0 +1,122 @@
+[
+  {
+    "symbol": "A",
+    "refreshInterval": 4,
+    "price": 25759,
+    "name": "Agilent Technologies Inc."
+  },
+  {
+    "symbol": "AA",
+    "refreshInterval": 1,
+    "price": 101344,
+    "name": "Alcoa Corporation"
+  },
+  {
+    "symbol": "AAA",
+    "refreshInterval": 2,
+    "price": 52124,
+    "name": "Alternative Access First Priority CLO Bond ETF"
+  },
+  {
+    "symbol": "AAAU",
+    "refreshInterval": 5,
+    "price": 20875,
+    "name": "Goldman Sachs Physical Gold ETF Shares"
+  },
+  {
+    "symbol": "AACG",
+    "refreshInterval": 2,
+    "price": 51509,
+    "name": "ATA Creativity Global American Depositary Shares"
+  },
+  {
+    "symbol": "AACI",
+    "refreshInterval": 5,
+    "price": 19888,
+    "name": "Armada Acquisition Corp. I Common Stock"
+  },
+  {
+    "symbol": "AACIU",
+    "refreshInterval": 3,
+    "price": 33604,
+    "name": "Armada Acquisition Corp. I Unit"
+  },
+  {
+    "symbol": "AACIW",
+    "refreshInterval": 5,
+    "price": 19871,
+    "name": "Armada Acquisition Corp. I Warrant"
+  },
+  {
+    "symbol": "AACT",
+    "refreshInterval": 1,
+    "price": 100839,
+    "name": "Ares Acquisition Corporation II"
+  },
+  {
+    "symbol": "AACT.U",
+    "refreshInterval": 2,
+    "price": 52026,
+    "name": "Ares Acquisition Corporation II Units, each consisting of one Class A ordinary share and one-half of one redeemable warrant"
+  },
+  {
+    "symbol": "AACT.WS",
+    "refreshInterval": 2,
+    "price": 50690,
+    "name": "Ares Acquisition Corporation II Redeemable Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50"
+  },
+  {
+    "symbol": "AADI",
+    "refreshInterval": 5,
+    "price": 20406,
+    "name": "Aadi Bioscience, Inc. Common Stock"
+  },
+  {
+    "symbol": "AADR",
+    "refreshInterval": 3,
+    "price": 35107,
+    "name": "AdvisorShares Dorsey Wright ADR ETF"
+  },
+  {
+    "symbol": "AAGR",
+    "refreshInterval": 2,
+    "price": 52200,
+    "name": "African Agriculture Holdings Inc. Common Stock"
+  },
+  {
+    "symbol": "AAGRW",
+    "refreshInterval": 1,
+    "price": 103227,
+    "name": "African Agriculture Holdings Inc. Warrant"
+  },
+  {
+    "symbol": "AAL",
+    "refreshInterval": 2,
+    "price": 51542,
+    "name": "American Airlines Group Inc."
+  },
+  {
+    "symbol": "AAMC",
+    "refreshInterval": 1,
+    "price": 99159,
+    "name": "Altisource Asset Mgmt Corp"
+  },
+  {
+    "symbol": "AAME",
+    "refreshInterval": 1,
+    "price": 102104,
+    "name": "Atlantic American Corp"
+  },
+  {
+    "symbol": "AAN",
+    "refreshInterval": 2,
+    "price": 50125,
+    "name": "The Aaron's Company, Inc."
+  },
+  {
+    "symbol": "AAOI",
+    "refreshInterval": 3,
+    "price": 33525,
+    "name": "Applied Optoelectronics, Inc."
+  }
+]
