@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Add this CSS to your stylesheet or component's CSS file */
+
+.stock-display {
+  margin: 20px;
+}
+
+.stock-display__title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.stock-display__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.stock-display__table th,
+.stock-display__table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.stock-display__table th {
+  background-color: #f2f2f2;
+}
+
+.stock-display__symbol {
+  font-weight: bold;
+}
+
+.stock-display__name {
+  font-style: italic;
+}
+
+.stock-display__price {
+  color: green; /* You can adjust color based on price changes */
+}
