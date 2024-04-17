@@ -2,121 +2,121 @@
   {
     "symbol": "A",
     "refreshInterval": 4,
-    "price": 25759,
+    "price": 120,
     "name": "Agilent Technologies Inc."
   },
   {
     "symbol": "AA",
     "refreshInterval": 1,
-    "price": 101344,
+    "price": 56,
     "name": "Alcoa Corporation"
   },
   {
     "symbol": "AAA",
-    "refreshInterval": 2,
-    "price": 52124,
+    "refreshInterval": 1,
+    "price": 71,
     "name": "Alternative Access First Priority CLO Bond ETF"
   },
   {
     "symbol": "AAAU",
-    "refreshInterval": 5,
-    "price": 20875,
+    "refreshInterval": 4,
+    "price": 129,
     "name": "Goldman Sachs Physical Gold ETF Shares"
   },
   {
     "symbol": "AACG",
-    "refreshInterval": 2,
-    "price": 51509,
+    "refreshInterval": 5,
+    "price": 95,
     "name": "ATA Creativity Global American Depositary Shares"
   },
   {
     "symbol": "AACI",
-    "refreshInterval": 5,
-    "price": 19888,
+    "refreshInterval": 2,
+    "price": 110,
     "name": "Armada Acquisition Corp. I Common Stock"
   },
   {
     "symbol": "AACIU",
-    "refreshInterval": 3,
-    "price": 33604,
+    "refreshInterval": 5,
+    "price": 130,
     "name": "Armada Acquisition Corp. I Unit"
   },
   {
     "symbol": "AACIW",
-    "refreshInterval": 5,
-    "price": 19871,
+    "refreshInterval": 4,
+    "price": 43,
     "name": "Armada Acquisition Corp. I Warrant"
   },
   {
     "symbol": "AACT",
-    "refreshInterval": 1,
-    "price": 100839,
+    "refreshInterval": 3,
+    "price": 27,
     "name": "Ares Acquisition Corporation II"
   },
   {
     "symbol": "AACT.U",
-    "refreshInterval": 2,
-    "price": 52026,
+    "refreshInterval": 1,
+    "price": -4,
     "name": "Ares Acquisition Corporation II Units, each consisting of one Class A ordinary share and one-half of one redeemable warrant"
   },
   {
     "symbol": "AACT.WS",
-    "refreshInterval": 2,
-    "price": 50690,
+    "refreshInterval": 3,
+    "price": 68,
     "name": "Ares Acquisition Corporation II Redeemable Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50"
   },
   {
     "symbol": "AADI",
-    "refreshInterval": 5,
-    "price": 20406,
+    "refreshInterval": 2,
+    "price": 68,
     "name": "Aadi Bioscience, Inc. Common Stock"
   },
   {
     "symbol": "AADR",
-    "refreshInterval": 3,
-    "price": 35107,
+    "refreshInterval": 5,
+    "price": 118,
     "name": "AdvisorShares Dorsey Wright ADR ETF"
   },
   {
     "symbol": "AAGR",
-    "refreshInterval": 2,
-    "price": 52200,
+    "refreshInterval": 4,
+    "price": 84,
     "name": "African Agriculture Holdings Inc. Common Stock"
   },
   {
     "symbol": "AAGRW",
-    "refreshInterval": 1,
-    "price": 103227,
+    "refreshInterval": 4,
+    "price": 109,
     "name": "African Agriculture Holdings Inc. Warrant"
   },
   {
     "symbol": "AAL",
     "refreshInterval": 2,
-    "price": 51542,
+    "price": 80,
     "name": "American Airlines Group Inc."
   },
   {
     "symbol": "AAMC",
-    "refreshInterval": 1,
-    "price": 99159,
+    "refreshInterval": 4,
+    "price": 46,
     "name": "Altisource Asset Mgmt Corp"
   },
   {
     "symbol": "AAME",
-    "refreshInterval": 1,
-    "price": 102104,
+    "refreshInterval": 3,
+    "price": 111,
     "name": "Atlantic American Corp"
   },
   {
     "symbol": "AAN",
-    "refreshInterval": 2,
-    "price": 50125,
+    "refreshInterval": 4,
+    "price": 133,
     "name": "The Aaron's Company, Inc."
   },
   {
     "symbol": "AAOI",
     "refreshInterval": 3,
-    "price": 33525,
+    "price": 121,
     "name": "Applied Optoelectronics, Inc."
   }
-]
+]]

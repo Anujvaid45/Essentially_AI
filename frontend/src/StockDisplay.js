@@ -67,7 +67,7 @@ const StockDisplay = () => {
     // Function to fetch stock data from the backend
     const fetchStocks = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/stocks');
+        const response = await axios.get('https://essentially-ai-backend.onrender.com/api/stocks');
         setStocks(response.data);
       } catch (error) {
         console.error('Error fetching stock data:', error.message);
