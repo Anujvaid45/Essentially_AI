@@ -167,3 +167,42 @@ body {
       padding: 10px;
     }
   }
+
+  @media (max-width: 768px) {
+    .stock-display {
+      max-width: 90%;
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .stock-display {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .stock-display__form {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .stock-display__form label {
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+  
+    .stock-display__input,
+    .stock-display__button {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .stock-display__table {
+      max-width: 100%;
+      overflow-x: auto;
+    }
+  }
