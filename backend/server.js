@@ -10,7 +10,7 @@ app.use(cors());
 // Path to the stock data file
 const stockDataFile = 'stock-data.json';
 
-// Function to fetch stock data from Polygon API (replace with your implementation)
+// Function to fetch stock data from Polygon API 
 async function fetchStockData() {
     try {
       const response = await axios.get('https://api.polygon.io/v3/reference/tickers', {
@@ -27,7 +27,7 @@ async function fetchStockData() {
       const stockData = response.data.results.map(stock => ({
         symbol: stock.ticker,
         refreshInterval: Math.floor(Math.random() * 5) + 1, // Random interval between 1-5 seconds
-        price: Math.floor(Math.random() * (150 - 25 + 1)) + 25, // Use last trade price if available
+        price: Math.floor(Math.random() * (150 - 25 + 1)) + 25, //range is from 25 to 150
         name:stock.name,
       }));
       
@@ -48,7 +48,7 @@ function updateStockPrices() {
       const interval = setInterval(() => {
         // Update stock price with a random value
         if (stock.price >= 0) {
-          stock.price += Math.floor(Math.random() * (10 - (-10) + 1)) + (-10);
+          stock.price += Math.floor(Math.random() * (10 - (-10) + 1)) + (-10);  //range is from -10 to +10
          } else {
           stock.price = 0;
          }
@@ -74,13 +74,6 @@ fetchStockData().then(stockData => {
   });
 
 // API route to fetch stock prices
-// app.get('/api/stocks', (req, res) => {
-//   fs.readFile(stockDataFile, 'utf8', (err, data) => {
-//     if (err) throw err;
-//     res.json(JSON.parse(data));
-//   });
-// });
-
 app.get('/api/stocks', (req, res) => {
   // Read the stock data file asynchronously
   fs.readFile(stockDataFile, 'utf8', (err, data) => {
