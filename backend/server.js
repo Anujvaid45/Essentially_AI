@@ -47,13 +47,8 @@ function updateStockPrices() {
     stockData.forEach((stock, index) => {
       const interval = setInterval(() => {
         // Update stock price with a random value
-        if (stock.price >= 0) {
-          stock.price += Math.floor(Math.random() * (10 - (-10) + 1)) + (-10);  //range is from -10 to +10
-         } else {
-          stock.price = 0;
-         }
-
-
+        const randomChange = Math.floor(Math.random() * (10 - (-10) + 1)) + (-10); // Range is from -10 to +10
+    stock.price = Math.max(0, stock.price + randomChange); // Ensures stock.price never goes below 0
 
         // Write updated stock data to file
         fs.writeFile(stockDataFile, JSON.stringify(stockData,null,2), (err) => {
