@@ -56,7 +56,7 @@ const StockDisplay = () => {
         <table className="stock-display__table">
           <thead>
             <tr>
-              <th>Number</th>
+              <th>No.</th>
               <th>Symbol</th>
               <th>Name</th>
               <th>Price</th>
